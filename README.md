@@ -4,6 +4,7 @@ advertisements with viewers. First, I decided on a ranking algorithm to rank vie
 and advertisements based on their preferences and viewers choices respectively.
 Then I input the ranking outcomes into the stable matching algorithm to match
 advertisements with viewers.
+
 Required Task Elements
 To rank the viewers for a particular advertisement, the attributes of viewers are: age,
 daily internet usage, gender and income. The conditions applied to rank the viewers
@@ -33,6 +34,7 @@ match and matches to the new advertisement. The newly free advertisement
 becomes free again. In the termination stage matching algorithm, all advertisement
 are matched with viewers. We cannot find a viewer and an advertisement are not
 matched to each other but prefer each other over their current match.
+
 Pros and Cons
 Both ranking algorithm of advertisement and viewers allows for a customized
 approached to rank the objects based on their compatibility. It uses multiple criteria
@@ -47,6 +49,7 @@ in terms of running time is reasonable even for large inputs. The result can be
 different depending on who initialize the match first (viewer or advertisement). It
 assumes that the preferences have no ties and all that matters is whether one
 candidate is preferred to another, which may not the case in real world scenarios.
+
 Modification and Improvement
 I implement a machine learning model to predict whether an advertisement will be
 clicked based on certain features. The “Clicked on Ad” column is assigned to variable
@@ -72,6 +75,7 @@ on an ad or not. The coefficients of the model represent the log odds of the
 outcome. For example, a positive coefficient for ‘Daily Time Spent on Site’ means
 that spending more time on the site is associated with higher odds of clicking on the
 advertisement.
+
 Reflection
 The stable matching algorithm matches viewers and advertisement based on their
 preferences, while the Logistic Regression model predicts whether a viewer will click
@@ -88,6 +92,7 @@ methods to solve the ice cream carton problem; simulating the lottery play and
 rewards distribution to analyze the wealth disparity problem; using recursion to
 calculate Haruo Hosoya triangle’s number; and using stacks and queues to develop
 bracket checking and ticket line applications.
+
 Acknowledgements
 Stable marriage problem: https://en.wikipedia.org/wiki/Stable_marriage_problem
 https://www.geeksforgeeks.org/stable-marriage-problem/

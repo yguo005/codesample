@@ -1,4 +1,5 @@
 Problem Description
+
 This project is to implement the stable matching algorithm to match online
 advertisements with viewers. First, I decided on a ranking algorithm to rank viewers
 and advertisements based on their preferences and viewers choices respectively.
@@ -6,6 +7,7 @@ Then I input the ranking outcomes into the stable matching algorithm to match
 advertisements with viewers.
 
 Required Task Elements
+
 To rank the viewers for a particular advertisement, the attributes of viewers are: age,
 daily internet usage, gender and income. The conditions applied to rank the viewers
 are: if the age is between 25 to 40, score +1; if target daily internet usage is between
@@ -36,6 +38,7 @@ are matched with viewers. We cannot find a viewer and an advertisement are not
 matched to each other but prefer each other over their current match.
 
 Pros and Cons
+
 Both ranking algorithm of advertisement and viewers allows for a customized
 approached to rank the objects based on their compatibility. It uses multiple criteria
 (age, daily internet usage, gender, income, target age, target gender, target travel,
@@ -51,6 +54,7 @@ assumes that the preferences have no ties and all that matters is whether one
 candidate is preferred to another, which may not the case in real world scenarios.
 
 Modification and Improvement
+
 I implement a machine learning model to predict whether an advertisement will be
 clicked based on certain features. The “Clicked on Ad” column is assigned to variable
 y, which is the target variable that the model predicts.
@@ -77,6 +81,7 @@ that spending more time on the site is associated with higher odds of clicking o
 advertisement.
 
 Reflection
+
 The stable matching algorithm matches viewers and advertisement based on their
 preferences, while the Logistic Regression model predicts whether a viewer will click
 on an advertisement. The stable matching algorithm is applied in school admissions,
@@ -94,6 +99,7 @@ calculate Haruo Hosoya triangle’s number; and using stacks and queues to devel
 bracket checking and ticket line applications.
 
 Acknowledgements
+
 Stable marriage problem: https://en.wikipedia.org/wiki/Stable_marriage_problem
 https://www.geeksforgeeks.org/stable-marriage-problem/
 Customer ad clicks prediction mode: https://www.youtube.com/watch?v=6NAmF-
